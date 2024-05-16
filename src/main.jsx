@@ -5,6 +5,7 @@ import Home from "./component/Home";
 import Cabane from "./component/Cabane";
 import Hobbit from "./component/Hobbit";
 import AboutUs from "./component/AboutUs";
+import Signup from "./component/Signup";
 
 const router = createBrowserRouter([
   {
@@ -15,9 +16,10 @@ const router = createBrowserRouter([
           <Link to="/">Home</Link>
           <Link to="/Hobbit">Hobbit</Link>
           <Link to="/AboutUs">About Us</Link>
+          <Link to="/Signup">Sign up</Link>
         </nav>
         <main>
-          <Home />
+          <Home/>
         </main>
       </>
     ),
@@ -63,11 +65,27 @@ const router = createBrowserRouter([
     </nav>
     <main>
       <AboutUs/>
-    </main>
-  
-    
+    </main> 
     </>
   )
+},
+{
+  path:"/Signup",
+  element:(
+    <>
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/Hobbit">Hobbit</Link>
+      <Link to="/Cabane">Cabane</Link>
+    </nav>
+    <main>
+      <Signup/>
+    </main>
+    </>
+
+  )
+
+
 }
 ]);
 
