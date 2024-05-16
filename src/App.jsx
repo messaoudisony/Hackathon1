@@ -1,4 +1,3 @@
-import "./App.css";
 import HobbitHouses from "./components/Hobbit";
 
 function App() {
