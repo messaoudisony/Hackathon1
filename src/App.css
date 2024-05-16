@@ -18,23 +18,39 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* css CardHouses */
 .container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
+  justify-content: center;
   padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: start;
+}
+
+.buttonDisplay {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.1rem;
+  font-weight: bolder;
+}
+
+.buttonDisplay:hover {
+  color: black;
 }
 
 .house-card {
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   background-color: #cfdef2;
-  max-width: 200px;
+  max-width: 250px;
   margin: 20px;
 }
 
@@ -47,61 +63,6 @@
 .house-content {
   padding: 20px;
   flex: 1;
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .house-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    background-color: #cfdef2;
-    max-width: 200px;
-    margin: 20px;
-  }
-
-  .house-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-
-  .house-content {
-    padding: 20px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .house-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .house-description {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  .house-address {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 10px;
-  }
-
-  .house-price {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ff5a5f;
-  }
   display: flex;
   flex-direction: column;
 }
@@ -126,5 +87,29 @@
 .house-price {
   font-size: 18px;
   font-weight: bold;
-  color: #ff5a5f;
+  color: black;
+  padding: 20px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
