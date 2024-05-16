@@ -1,0 +1,52 @@
+{
+    "housesData": [
+    {
+        "id": 1,
+        "image_name": "Lune filante",
+        "image_path": "src/assets/images/space1.jpg",
+        "address": "Chemin des \u00c9toiles Filantes, Vall\u00e9e Tranquille, Clair de Lune-sur-Serein",
+        "description": "Laissez-vous emporter par la magie de notre lune filante. Cette location romantique vous offre une vue imprenable, id\u00e9ale pour une escapade en amoureux sous les \u00e9toiles.",
+        "price": 750000000
+    },
+    {
+        "id": 2,
+        "image_name": "Constellation familiale",
+        "image_path": "src/assets/images/space2.jpg",
+        "address": "456 Sentier des Constellations, For\u00eat \u00c9toil\u00e9e, Astraville",
+        "description": "Cr\u00e9ez des souvenirs inoubliables en famille dans notre constellation familiale. Cette spacieuse location spatiale vous accueille pour des moments de partage et de d\u00e9couverte.",
+        "price": 23000
+    },
+    {
+        "id": 3,
+        "image_name": "Cosmos confortable",
+        "image_path": "src/assets/images/space3.jpg",
+        "address": "210 Avenue du Cosmos, Campagne Sereine, Cielville",
+        "description": "Profitez du confort douillet de notre cosmos confortable. Avec ses \u00e9quipements modernes et son atmosph\u00e8re accueillante, cette location spatiale vous promet un s\u00e9jour relaxant et agr\u00e9able.",
+        "price": 700
+    },
+    {
+        "id": 4,
+        "image_name": "S\u00e9r\u00e9nit\u00e9 spatiale",
+        "image_path": "src/assets/images/space4.jpg",
+        "address": "101 Rue de la S\u00e9r\u00e9nit\u00e9, Rivi\u00e8re Calme, Astropolis",
+        "description": "\u00c9chappez au tumulte de la vie quotidienne et plongez dans la s\u00e9r\u00e9nit\u00e9 spatiale de notre location. Offrant un refuge paisible au milieu des \u00e9toiles, cette escapade vous permettra de vous ressourcer en toute tranquillit\u00e9.",
+        "price": 450
+    },
+    {
+        "id": 5,
+        "image_name": "\u00c9toile des galaxies",
+        "image_path": "src/assets/images/space5.jpg",
+        "address": "123 Rue de la Voie Lact\u00e9e, Montagnes C\u00e9lestes, Astrovilla",
+        "description": "Offrez-vous une escapade de luxe avec notre \u00e9toile des galaxies. Nich\u00e9e parmi les \u00e9toiles scintillantes, cette location vous promet une exp\u00e9rience cosmique inoubliable.",
+        "price": 125000000
+    },
+    {
+        "id": 6,
+        "image_name": "Rayonnement rustique",
+        "image_path": "src/assets/images/space6.jpg",
+        "address": "789 Chemin des Rayons Rustiques, Canyon Rocheux, Astrebois",
+        "description": "Plongez dans une ambiance chaleureuse dans cette cabane spatiale pour une exp\u00e9rience unique et authentique.",
+        "price": 2
+    }
+]
+}
