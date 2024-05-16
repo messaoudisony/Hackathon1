@@ -22,8 +22,11 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  justify-content: center;
   padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: start;
 }
 
 .buttonDisplay {
@@ -42,7 +45,7 @@
 .house-card {
   display: flex; 
   flex-direction: column; 
-  border-radius: 8px;
+  border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -84,7 +87,9 @@
 .house-price {
   font-size: 18px;
   font-weight: bold;
-  color: #ff5a5f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
