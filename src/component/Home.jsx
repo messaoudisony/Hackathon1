@@ -1,10 +1,12 @@
-import React from 'react';
+
+import NavbarToggle from './navbar/NavbarToggle';
+import Caroussel from './caroussel/Caroussel';
 
 const Home = () => {
   return (
     <div>
-      <h1>here is the home page</h1>
-      <p>welcome to the home page</p>
+      <NavbarToggle />
+      <Caroussel />
     </div>
   );
 };
