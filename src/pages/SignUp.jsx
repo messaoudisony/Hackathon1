@@ -1,8 +1,9 @@
+import SignUp from "../components/Signup";
 
-export default function SignUp() {
+export default function Connect() {
   return (
     <div>
-      <h1>all the element of sign up</h1>
+      <SignUp />
     </div>
-  )
+  );
 }
