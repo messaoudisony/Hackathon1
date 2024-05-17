@@ -30,13 +30,18 @@
   width: 73%;
   position: absolute;
   top: 42%;
-  left: 5%;
+  left: 15%;
   text-align: center;
   padding: 10px;
-  font-style: bold;
   font-size: 25px;
   text-decoration: none;
   color: #fffefe;
+  font-weight: 900;
+  -webkit-text-stroke: 1px black;
+}
+
+.col-md-4 {
+  text-align: center;
 }
 
 .imgHome {
@@ -51,6 +56,10 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.row {
+  margin-top: 2%;
 }
 
 .rowContact {

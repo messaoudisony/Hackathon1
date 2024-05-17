@@ -32,7 +32,7 @@ input[type="password"] {
   border-radius: 4px;
 }
 
-button {
+.buttonSignup {
   width: 100%;
   padding: 10px;
   background-color: #5cb85c;
@@ -43,6 +43,6 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+.buttonSignup:hover {
   background-color: #4cae4c;
 }
