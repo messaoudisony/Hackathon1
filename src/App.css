@@ -60,6 +60,7 @@
   margin-top: 60px;
   border-radius: 20px;
   image-orientation: from-image;
+  margin-bottom: 50px;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
