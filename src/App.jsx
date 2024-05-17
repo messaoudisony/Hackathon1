@@ -1,15 +1,5 @@
-// import "./App.css";
+function App() {
+  return <></>;
+}
 
-// import TreeHouses from "./components/Cabane";
-
-// function App() {
-
-
-//   return (
-//     <>
-//       <TreeHouses />
-//     </>
-//   );
-// }
-
-// export default App;
+export default App;

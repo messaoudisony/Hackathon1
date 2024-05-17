@@ -1,93 +1,117 @@
 import ReactDOM from "react-dom";
-import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "./App.css";
 
-import Home from "./component/Home";
-import Cabane from "./component/Cabane";
-import Hobbit from "./component/Hobbit";
-import AboutUs from "./component/AboutUs";
-import Signup from "./component/Signup";
+import Home from "./pages/Home";
+import Cabane from "./pages/Cabane";
+import Hobbit from "./pages/Hobbit";
+import About from "./pages/About";
+import SignUp from "./pages/SignUp";
+import Contact from "./pages/Contact";
+import NavbarToggle from "./component/navbar/NavbarToggle";
+import Footer from "./component/footer/Footer";
+import Animation from "./component/animation/Animation";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Hobbit">Hobbit</Link>
-          <Link to="/AboutUs">About Us</Link>
-          <Link to="/Signup">Sign up</Link>
-        </nav>
         <main>
-          <Home/>
+          <Animation />
+          <NavbarToggle />
+          <Home />
+          <Footer />
         </main>
       </>
     ),
   },
   {
-    path: "/Hobbit",
+    path: "/sous-marin",
     element: (
       <>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Cabane">Cabane</Link>
-          <Link to="/AboutUs">About Us</Link>
-        </nav>
         <main>
+          <NavbarToggle />
           <Hobbit />
+          <Footer />
         </main>
       </>
     ),
   },
   {
-    path: "/Cabane",
+    path: "/spaciaux",
     element: (
       <>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Hobbit">Hobbit</Link>
-          <Link to="/AboutUs">About Us</Link>
-        </nav>
         <main>
+          <NavbarToggle />
           <Cabane />
+          <Footer />
         </main>
       </>
     ),
   },
-{
-  path:"/AboutUs",
-  element:(
-    <>
-    <nav>
-    <Link to="/">Home</Link>
-    <Link to="/Hobbit">Hobbit</Link>
-    <Link to="/Cabane">Cabane</Link>
-    </nav>
-    <main>
-      <AboutUs/>
-    </main> 
-    </>
-  )
-},
-{
-  path:"/Signup",
-  element:(
-    <>
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/Hobbit">Hobbit</Link>
-      <Link to="/Cabane">Cabane</Link>
-    </nav>
-    <main>
-      <Signup/>
-    </main>
-    </>
-
-  )
-
-
-}
+  {
+    path: "/about",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <About />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/signup",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <SignUp />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <Contact />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <Contact />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <Contact />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
 ]);
 
 // rendering

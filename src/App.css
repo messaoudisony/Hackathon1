@@ -14,6 +14,54 @@
   will-change: filter;
   transition: filter 300ms;
 }
+/* main {
+  background-image: url("./assets/images/background.jpg");
+  background-image: url("./assets/images/arr.avif");
+  
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+} */
+
+.divImgHome {
+  padding: 15px;
+  margin-bottom: -6%;
+  position: relative;
+}
+.divImgHome a {
+  background-color: rgba(223, 197, 197, 0.5);
+  width: 76%;
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  padding: 10px;
+  font-style: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #00012e;
+}
+.imgHome {
+  height: 70%;
+  width: 80%;
+  border: 4px solid rgb(109, 65, 108);
+  border-radius: 20px;
+}
+
+.containerContact {
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.rowContact {
+  background-color: #cfdef2;
+  padding: 50px;
+  margin-top: 60px;
+  border-radius: 20px;
+  image-orientation: from-image;
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
