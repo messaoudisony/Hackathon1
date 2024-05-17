@@ -27,9 +27,8 @@
 }
 .divImgHome a {
   background-color: rgba(223, 197, 197, 0.5);
-  width: 76%;
-  position: absolute;
-  top: 55%;
+  width: 100%;
+  top: 42%;
   text-align: center;
   padding: 10px;
   font-style: bold;
