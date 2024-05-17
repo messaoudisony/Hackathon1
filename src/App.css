@@ -29,7 +29,7 @@
 .divImgHome a {
   background-color: rgba(223, 197, 197, 0.5);
   width: 75%;
-  position:absolute ;
+  position: absolute;
   top: 42%;
   left: 5%;
   text-align: center;
@@ -38,7 +38,6 @@
   font-size: 20px;
   text-decoration: none;
   color: #00012e;
-
 }
 
 .imgHome {
@@ -61,6 +60,7 @@
   margin-top: 60px;
   border-radius: 20px;
   image-orientation: from-image;
+  margin-bottom: 50px;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

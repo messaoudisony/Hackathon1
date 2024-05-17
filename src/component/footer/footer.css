@@ -1,24 +1,22 @@
-.main{
-    background-color: #00012e;
-    color: #FFF;
-    width: 100vw;
-    /* position: fixed; */
-    bottom: 0px;
-    z-index: 9999;
-    } 
-.main  a {
-   color: #FFF;
+.main {
+  background-color: #00012e;
+  color: #fff;
+  width: 100vw;
+  /* position: fixed; */
+  bottom: 0px;
+  z-index: 9999;
+}
+.main a {
+  color: #fff;
 }
 .btn {
-    height: 35px;
-    background-color: transparent;
-    color: #FFF;
-    padding: 2px 15px 2px 15px;
-    border: 1px solid #fff;
+  height: 35px;
+  background-color: transparent;
+  color: #fff;
+  padding: 2px 15px 2px 15px;
+  border: 1px solid #fff;
 }
 .input {
-    height: 35px;
-    border: 1px solid #fff;
+  height: 35px;
+  border: 1px solid #fff;
 }
-
-   
