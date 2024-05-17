@@ -1,5 +1,5 @@
 #root {
-  background-image: url("src/assets/images/hand_painted.jpg");
+  background-image: url("src/assets/images/dark-black-wall-texture.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -9,6 +9,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+}
 /* main {
   background-image: url("./assets/images/background.jpg");
   background-image: url("./assets/images/arr.avif");
@@ -18,6 +19,7 @@
   background-repeat: no-repeat;
 
 } */
+
 .divImgHome {
   padding: 15px;
   margin-bottom: -6%;
@@ -46,16 +48,16 @@
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed ;
+  background-attachment: fixed;
 }
 
-.rowContact{
-  background-color: rgb(77, 99, 106);
+.rowContact {
+  background-color: #cfdef2;
   padding: 50px;
   margin-top: 60px;
   border-radius: 20px;
   image-orientation: from-image;
- }  
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -73,7 +75,6 @@ h1 {
   justify-content: center;
   padding: 20px;
   text-align: start;
-  background-color: black;
 }
 
 .buttonDisplay {
