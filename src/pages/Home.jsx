@@ -2,15 +2,7 @@ import { Link } from "react-router-dom";
 import Caroussel from "../component/caroussel/Caroussel";
 
 const Home = () => {
-  const images = [
-    "eau1.jpg",
-    "space1.jpg",
-    "eau2.jpg",
-    "space2.jpg",
-    "eau3.jpg",
-    "space3.jpg",
-    "eau4.jpg",
-  ];
+  const images = ["slide1.jpg", "slide2.jpg", "slide3.jpg", "slide4.jpg","slide5.jpg", "slide6.jpg"]
   return (
     <div>
       <div className="row">
