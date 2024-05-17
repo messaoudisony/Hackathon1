@@ -1,0 +1,43 @@
+
+.star1 {
+    position: absolute;
+    animation: fall 1s linear infinite;
+    z-index: 9999999999;
+  }
+  .star2 {
+    position: absolute;
+    animation: fall 2s linear infinite;
+    z-index: 9999999999;
+  }
+
+  .star3 {
+    position: absolute;
+    animation: fall 3s linear infinite;
+    z-index: 9999999999;
+  }
+  .star4 {
+    position: absolute;
+    animation: fall 4s linear infinite;
+    z-index: 9999999999;
+  }
+  .star5 {
+    position: absolute;
+    animation: fall 5s linear infinite;
+    z-index: 9999999999;
+  }
+  .star6 {
+    position: absolute;
+    animation: fall 6s linear infinite;
+    z-index: 9999999999;
+  }
+  
+  @keyframes fall {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(90vh);
+    }
+  }
+
+ 
