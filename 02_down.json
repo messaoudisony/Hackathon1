@@ -1,0 +1,58 @@
+{
+  "housesData": [
+    {
+      "id": 1,
+      "image_name": "Perle des Profondeurs",
+      "image_path": "src/assets/images/eau1.jpg",
+      "address": "20 Rue des Coraux, Baie \u00c9meraude, Oc\u00e9anville",
+      "description": "Plongez dans le luxe et la tranquillit\u00e9 de notre Perle des Profondeurs. Nich\u00e9e au c\u0153ur des oc\u00e9ans, cette retraite exquise offre une exp\u00e9rience immersive parmi les merveilles sous-marines.",
+      "price": 750000000,
+      "rate": 4.9
+    },
+    {
+      "id": 2,
+      "image_name": "Cocon Sous-Marin",
+      "image_path": "src/assets/images/eau2.jpg",
+      "address": "15 Chemin des Algues, Baie Tranquille, Aquamarine-sur-Mer",
+      "description": "Offrez-vous une escapade intime et paisible dans notre Cocon Sous-Marin. Avec son ambiance chaleureuse et ses vues spectaculaires sur la vie marine, cette cabane est parfaite pour une escapade romantique sous les vagues.",
+      "price": 23000,
+      "rate": 4.7
+    },
+    {
+      "id": 3,
+      "image_name": "Grotte Secr\u00e8te",
+      "image_path": "src/assets/images/eau3.jpg",
+      "address": "8 All\u00e9e des Anguilles, Anse Mystique, Profondit\u00e9-les-Bains",
+      "description": "D\u00e9couvrez le myst\u00e8re et dans notre Grotte Secr\u00e8te. Nich\u00e9e dans un coin isol\u00e9 des fonds marins, cette cabane offre un refuge tranquille pour ceux en qu\u00eate de d\u00e9couverte sous-marine.",
+      "price": 700,
+      "rate": 4.6
+    },
+    {
+      "id": 4,
+      "image_name": "Villa Subaquatique",
+      "image_path": "src/assets/images/eau4.jpg",
+      "address": "30 Avenue des M\u00e9duses, R\u00e9serve Marine, Atlantique-Plage",
+      "description": "Plongez dans le confort absolu de notre Villa Subaquatique. Avec ses \u00e9quipements haut de gamme et son atmosph\u00e8re \u00e9l\u00e9gante, cette location sous-marine vous promet une exp\u00e9rience de vacances inoubliable.",
+      "price": 450,
+      "rate": 4.5
+    },
+    {
+      "id": 5,
+      "image_name": "Palais des Profondeurs",
+      "image_path": "src/assets/images/eau5.jpg",
+      "address": "12 Boulevard des Nacres, R\u00e9cif Majestueux, Oc\u00e9anopolis",
+      "description": "Vivez comme la royaut\u00e9 dans notre Palais des Profondeurs. Cette somptueuse r\u00e9sidence sous-marine offre un m\u00e9lange parfait de grandeur et de confort, vous permettant de vous d\u00e9tendre et de vous sentir comme chez vous.",
+      "price": 125000000,
+      "rate": 4.8
+    },
+    {
+      "id": 6,
+      "image_name": "\u00c9vasion Abyssale",
+      "image_path": "src/assets/images/eau6.jpg",
+      "address": "5 Rue des Sir\u00e8nes, Baie Solitaire, Abyssal-les-Eaux",
+      "description": "\u00c9chappez \u00e0 la r\u00e9alit\u00e9 dans notre \u00c9vasion Abyssale. Situ\u00e9e dans les profondeurs les plus recul\u00e9es, cette cabane offre une retraite paisible o\u00f9 vous pourrez vous reconnecter avec vous-m\u00eame et avec le monde sous-marin qui vous entoure.",
+      "price": 2,
+      "rate": 4.2
+    }
+  ]
+}

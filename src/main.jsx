@@ -2,7 +2,7 @@ import ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./App.css"
+import "./App.css";
 
 import Home from "./pages/Home";
 import Cabane from "./pages/Cabane";
@@ -22,14 +22,14 @@ const router = createBrowserRouter([
         <main>
           <Animation />
           <NavbarToggle />
-          <Home/>
+          <Home />
           <Footer />
         </main>
       </>
     ),
   },
   {
-    path: "/hobbit",
+    path: "/sous-marin",
     element: (
       <>
         <main>
@@ -41,77 +41,77 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/cabane",
+    path: "/spaciaux",
     element: (
       <>
         <main>
           <NavbarToggle />
-          <Cabane />          
+          <Cabane />
           <Footer />
         </main>
       </>
     ),
   },
-{
-  path:"/about",
-  element:(
-    <>
-    <main>
-      <NavbarToggle />
-      <About/>
-      <Footer />
-    </main> 
-    </>
-  )
-},
-{
-  path:"/signup",
-  element:(
-    <>
-    <main>
-      <NavbarToggle />
-      <SignUp />
-      <Footer />
-    </main>
-    </>
-  )
-},
-{
-  path:"/contact",
-  element:(
-    <>
-    <main>
-      <NavbarToggle />
-      <Contact />
-      <Footer />
-    </main>
-    </>
-  )
-},
-{
-  path:"/contact",
-  element:(
-    <>
-    <main>
-      <NavbarToggle />
-      <Contact />
-      <Footer />
-    </main>
-    </>
-  )
-},
-{
-  path:"/contact",
-  element:(
-    <>
-    <main>
-      <NavbarToggle />
-      <Contact />
-      <Footer />
-    </main>
-    </>
-  )
-}
+  {
+    path: "/about",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <About />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/signup",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <SignUp />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <Contact />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <Contact />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <main>
+          <NavbarToggle />
+          <Contact />
+          <Footer />
+        </main>
+      </>
+    ),
+  },
 ]);
 
 // rendering
