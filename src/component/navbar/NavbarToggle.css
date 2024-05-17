@@ -1,34 +1,37 @@
-.LogoNav img{
-    width: 100px;
-    height: 40px;
+.LogoNav img {
+  width: 100px;
+  height: 40px;
 }
 
 .bgNav {
-    background-color: #00012E;
+  background-color: #1b155e;
 }
 .navLink {
-    color: #00012E;
-    background-color: white;
-    margin-left: 10px;
-    padding: 5px 20px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-size: 13px;
+  color: #00012e;
+  background-color: white;
+  margin-left: 10px;
+  padding: 5px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .navDropdownMenu {
-    background-color: #00012E;
-    padding-top: 30px;
-    min-width: 180px;
+  background-color: #1b155e;
+  padding-top: 30px;
+  min-width: 180px;
 }
 .navDropdown {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-    margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 10px;
 }
 
 .navbar {
-    --bs-navbar-padding-y: 0px;
+  --bs-navbar-padding-y: 0px;
 }
 
+.navbar-toggler {
+  background-color: white;
+}
