@@ -1,11 +1,5 @@
-import HobbitHouses from "./components/Hobbit";
-
 function App() {
-  return (
-    <>
-      <HobbitHouses />
-    </>
-  );
+  return <></>;
 }
 
 export default App;

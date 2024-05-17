@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom"
 import "./NavbarToggle.css"
 
 export default function NavbarToggle() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-       <div className="LogoNav">
-        <img src= "./src/assets/images/logo-skydown-blue.png" alt="logo"/>
+    <nav className="navbar navbar-expand-lg bgNav">
+       <div className="mx-5">
     </div>
   <div className="container-fluid">
     <a className="navbar-brand" href="#"></a>
@@ -13,34 +13,35 @@ export default function NavbarToggle() {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+      <img src= "./src/assets/images/logo-skydown-blue.png" width="120" alt="logo"/>
+      </ul>
+      <div className="d-flex">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
+        <li className="nav-item" >
+          <Link to="/" className="navLink active">Home</Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="dropdown-toggle navLink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Nos services
           </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">nos services</a></li>
-            <li><a className="dropdown-item" href="#">planete</a></li>
-            <li><a className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">sous mer</a></li>
+          <ul className="dropdown-menu navDropdownMenu" aria-labelledby="navbarDropdown">
+            <li><Link className="navDropdown" to="/hobbit">Logements spaciaux</Link></li>
+            <li><Link className="navDropdown" to="/cabane">Logements sous-marin</Link></li>
+            
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contacts</a>
+          <Link className="navLink" to="/about">A propos</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About us</a>
+          <Link className="navLink" to="/contact">Contact</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Sign up</a>
+          <Link className="navLink" to="/signup">Se connecter</Link>
         </li>
+       
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </div>
     </div>
   </div>
 </nav>
