@@ -1,8 +1,7 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  background-image: url("src/assets/images/dark-black-wall-texture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo {
@@ -11,11 +10,135 @@
   will-change: filter;
   transition: filter 300ms;
 }
+/* main {
+  background-image: url("./assets/images/background.jpg");
+  background-image: url("./assets/images/arr.avif");
+  
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+} */
+
+.divImgHome {
+  padding: 15px;
+  margin-bottom: -6%;
+  position: relative;
+}
+.divImgHome a {
+  background-color: rgba(223, 197, 197, 0.5);
+  width: 76%;
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  padding: 10px;
+  font-style: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #00012e;
+}
+.imgHome {
+  height: 70%;
+  width: 80%;
+  border: 4px solid rgb(109, 65, 108);
+  border-radius: 20px;
+}
+
+.containerContact {
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.rowContact {
+  background-color: #cfdef2;
+  padding: 50px;
+  margin-top: 60px;
+  border-radius: 20px;
+  image-orientation: from-image;
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  text-align: start;
+}
+
+.buttonDisplay {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.1rem;
+  font-weight: bolder;
+}
+
+.buttonDisplay:hover {
+  color: black;
+}
+
+.house-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #cfdef2;
+  max-width: 250px;
+  margin: 20px;
+}
+
+.house-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.house-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.house-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.house-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.house-address {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.house-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes logo-spin {
