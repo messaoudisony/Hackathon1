@@ -1,25 +1,58 @@
+import { useRef } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import PropTypes from 'prop-types'
 
 
-export default function Caroussel() {
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import "./caroussel.css"
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+export default function Caroussel({images = []}) {
+  const progressCircle = useRef(null);
+  const progressContent = useRef(null);
+  const onAutoplayTimeLeft = (s, time, progress) => {
+    progressCircle.current.style.setProperty('--progress', 1 - progress);
+    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+  };
   return (
-    <div>
-      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src= "./src/assets/images/eau1.jpg" className="d-block w-100" width="50%" height={300} alt="eau1"/>
-    </div>
-    <div className="carousel-item">
-      <img src="./src/assets/images/space1.jpg" className="d-block w-100" width="50%" height={300} alt="space1"/>
-    </div>
-    <div className="carousel-item">
-      <img src="./src/assets/images/eau2.jpg" className="d-block w-100" width="50%" height={300} alt="eau2..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="./src/assets/images/space2.jpg" className="d-block w-100" width="50%" height={300} alt="space2..."/>
-    </div>
-    
-  </div>
-</div>
-    </div>
-  )
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper"
+      >
+        {images.map((src, index) =>
+          <SwiperSlide key={index}>
+            <img className='imgSwiper' src={`../../../src/assets/images/${src}`} alt="" />
+          </SwiperSlide>
+        )}
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
+        </div>
+      </Swiper>
+    </>
+  );
+}
+
+Caroussel.prototype = {
+images: PropTypes.array
 }
