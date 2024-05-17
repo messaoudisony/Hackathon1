@@ -31,3 +31,7 @@
 .navbar {
   --bs-navbar-padding-y: 0px;
 }
+
+.navbar-toggler {
+  background-color: white;
+}

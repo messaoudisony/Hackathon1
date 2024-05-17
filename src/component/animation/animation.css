@@ -57,7 +57,7 @@
 
 .fish {
   position: absolute;
-  top: calc(58% - 10px);
+  top: calc(52% - 10px);
   left: -100px;
   animation: swim 7s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
   z-index: 9999999999;
@@ -85,7 +85,7 @@
   position: absolute;
   bottom: -50px;
   left: -50px;
-  animation: riseAndMove 15s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+  animation: riseAndMove 10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
   z-index: 9999999999;
 }
 

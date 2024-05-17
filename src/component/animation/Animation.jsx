@@ -22,7 +22,7 @@ export default function Animation() {
         path={mdiCreationOutline}
         size={1}
         className="star2"
-        style={{ left: "10%", color: "red" }}
+        style={{ left: "10%", color: "grey" }}
       />
       <Icon
         path={mdiStarFourPointsOutline}
@@ -31,28 +31,22 @@ export default function Animation() {
         style={{ left: "15%", color: "white" }}
       />
       <Icon
-        path={mdiWaterOutline}
-        size={1}
-        className="star6"
-        style={{ left: "20%", color: "red" }}
-      />
-      <Icon
         path={mdiStarFourPointsOutline}
         size={1}
         className="star1"
-        style={{ left: "25%", color: "red" }}
+        style={{ left: "25%", color: "grey" }}
       />
       <Icon
         path={mdiStarFourPointsOutline}
         size={1}
         className="star3"
-        style={{ left: "30%", color: "red" }}
+        style={{ left: "30%", color: "black" }}
       />
       <Icon
         path={mdiWaterOutline}
         size={1}
         className="star2"
-        style={{ left: "40%", color: "red" }}
+        style={{ left: "40%", color: "grey" }}
       />
       <Icon
         path={mdiStarFourPointsOutline}
@@ -61,16 +55,10 @@ export default function Animation() {
         style={{ left: "45%", color: "blue" }}
       />
       <Icon
-        path={mdiStarFourPointsOutline}
-        size={1}
-        className="star3"
-        style={{ left: "30%", color: "blue" }}
-      />
-      <Icon
         path={mdiWaterOutline}
         size={1}
         className="star4"
-        style={{ left: "50%", color: "red" }}
+        style={{ left: "50%", color: "black" }}
       />
       <Icon
         path={mdiWaterOutline}
@@ -91,12 +79,6 @@ export default function Animation() {
         style={{ left: "65%", color: "yellow" }}
       />
       <Icon
-        path={mdiStarFourPointsOutline}
-        size={1}
-        className="star6"
-        style={{ left: "70%", color: "green" }}
-      />
-      <Icon
         path={mdiWaterOutline}
         size={1}
         className="star3"
@@ -106,7 +88,7 @@ export default function Animation() {
         path={mdiWaterOutline}
         size={1}
         className="star1"
-        style={{ left: "80%", color: "red" }}
+        style={{ left: "80%", color: "black" }}
       />
       <Icon
         path={mdiStarFourPointsOutline}
