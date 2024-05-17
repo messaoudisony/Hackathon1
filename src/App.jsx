@@ -1,15 +1,15 @@
-import "./App.css";
+// import "./App.css";
 
-import TreeHouses from "./components/Cabane";
+// import TreeHouses from "./components/Cabane";
 
-function App() {
+// function App() {
 
 
-  return (
-    <>
-      <TreeHouses />
-    </>
-  );
-}
+//   return (
+//     <>
+//       <TreeHouses />
+//     </>
+//   );
+// }
 
-export default App;
+// export default App;

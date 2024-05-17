@@ -1,14 +1,7 @@
-import React from 'react';
+import RenderText from "../components/About";
 
 const AboutUs = () => {
-  return (
-    <div>
-      <h1>here is the about us</h1>
-      <p>this is who we are</p>
-      
-      
-    </div>
-  );
+  return <RenderText />;
 };
 
 export default AboutUs;

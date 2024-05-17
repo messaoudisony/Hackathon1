@@ -1,14 +1,7 @@
-import React from 'react';
+import TreeHouses from "../components/Cabane";
 
 const Cabane = () => {
-  return (
-    <div>
-      <h1>here is the cabane</h1>
-      <p>welcome to the cabane</p>
-      
-      
-    </div>
-  );
+  return <TreeHouses />;
 };
 
 export default Cabane;
